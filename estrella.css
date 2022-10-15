@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+body {
+    background-color: blue;
+    background-image: url("https://i.pinimg.com/originals/0b/59/34/0b5934b623f3c6f5377f221959d77982.gif");
+    background-repeat: no-repeat;
+    /* sirve para que no se repita x para que se repita horizontal y y vertical*/
+    background-position-x: center;
+    background-position-y: center;
+    /* backgound-size es para ajustar el tamaño de la imagen com rem px o porcentaje*/
+    background-attachment: fixed;
+    /* sirve para que lña imagen baje cunado scroleas y fixed se queda statica*/
+    background-size: 100%;
+}
+
+main {
+    background-color: rgba(45, 21, 150, 0.356);
+    color: rgb(255, 255, 255);
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  /* Change the link color to #111 (black) on hover */
+.menu li a:hover {
+    background-color: #111;
+}
+
+.galeria{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+.galeria:hover{
+    border: 1px solid #777;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+.texto{
+    text-align: center;
+    padding: 15px;
+    font-family: maven pro;
+    
+}
+section{
+    clear: both;
+}
+
+
+ol li{
+    list-style-image: url("/iconos/icon.png");
+}
+
+#enlace{
+    text-decoration: none;
+}
+
+#enlace:link{
+    color: yellow;
+}
+#enlace:visited{
+    color: red;
+}
+#enlace:hover{
+    background-color: orange;
+}
+

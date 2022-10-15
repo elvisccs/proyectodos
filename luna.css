@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(175, 175, 175);
+    background-image: url("https://i.pinimg.com/originals/6e/0e/a1/6e0ea1352ad5e97e9a1ba2369628a8bc.gif");
+    background-repeat: no-repeat;
+    /* sirve para que no se repita x para que se repita horizontal y y vertical*/
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%; /*es para ajustar el tamaño de la imagen com rem px o porcentaje*/
+    background-attachment: fixed;
+    /* sirve para que lña imagen baje cunado scroleas y fixed se queda statica*/
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold; /* negtrita */
+    /*sombra horizontal - sombra vertical - tamaño sombra - color */
+    text-shadow: 3px 2px 3px black;
+}
+
+.logoheader{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://i.pinimg.com/originals/99/03/4d/99034d980af2101dca0504c9f2aa3df1.gif");
+    
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoimage{
+    height: 50px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none; /* quitar viñetas*/
+    margin: 0;      /*espacio externo*/
+    padding: 0;         /*espacio interno*/
+    overflow: hidden;   /*texto flotante este en el cuadro*/
+    background-color: rgb(56, 40, 201);
+    text-align: center;
+    
+}
+
+li {
+    float: left; /*texto flotante*/
+    
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.imagenes:hover{
+    border: 1px solid rgb(156, 8, 8);
+}
+main{
+    text-align: justify;
+    float: left;
+    color: white;
+    width: 74%;
+    height: 50%;
+    background-color: rgba(16, 12, 34, 0.356);
+}
+aside{
+    float: right;
+    width: 25%;
+    height: 50%;
+    background-color: rgba(16, 12, 34, 0.356);
+}
+
+p {
+    text-align: justify;
+    /* text-decoration: underline; solo para lineas */
+    letter-spacing: 2px;
+    /*separo las letras*/
+    word-spacing: 5px;
+    /*separo las palabras*/
+    text-transform: lowercase;
+    /*para cambiar minulcula o mayuscula lowercase = minuscula*/
+    line-height: 25px;
+    /*separacion de una linea y otra*/
+    /*pintar el fondo del nav colocar el nombre de cada planeta, imagen de otro planeta tiene que tener mismo estilo
+    imagen mismo tamaño, hacer el footer, al titulo agregar color, color de texo y fondo pintado en el header */
+    font-size: 20px;
+}
+img{
+    /* para que se redondee las esquinas */
+    border-radius: 3%; 
+
+    /* img en miniatura */
+    /* tamaño de borde - tipo de borde - color deborde */
+    border: 2px solid white;
+    /* padding espacio entre el marco y la imagen y  */
+    padding: 5px;
+    /* width: 150px; para que la imagen se comvierta en miniatura  tambien el padding*/
+    /* responsive de una imagen osea la imagen se va a reducir de tamaño depende a la pagina */
+    /* max-width: 100%;
+    height: auto; */
+
+    /* para centrar imagnen */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* IMAGEN TRANSPARENTE*/
+    opacity: 0.9;
+    /* filtros
+    filter: grayscale(100%);  para blanco y negro*/
+    
+}
+#promo{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+}
+#paginaxd{
+    color: white;
+}
+
+footer {
+    background-color: blue;
+    clear: both;
+    color: aliceblue;
+    
+}
+#foot{
+    text-align: center;
+}
+
+ol li{
+    list-style-image: url("./iconos/lunad.png");
+}
+#luna{
+    font-size: 35px;
+    text-align: center;
+    color: aquamarine;
+}
+h2{
+    text-align: center;
+}
+
+#lulle{
+    color: red;
+}
+#lunu{
+    color: chartreuse;
+}
+#lucre{
+    color: yellow;
+}
+#lume{
+    color: rgb(42, 197, 218);
+}
+#parrafos{
+    background-color: rgba(240, 248, 255, 0.082);
+}
+#inicio{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.027);
+}
+#enlace{
+    text-decoration: none;
+}
+
+#enlace:link{
+    color: yellow;
+}
+#enlace:visited{
+    color: rgb(255, 255, 255);
+}
+#enlace:hover{
+    background-color: blue;
+}
+#imagenesp:hover{
+    border: 1px solid rgb(182, 223, 36);
+}
+
+    
+
+
+
+

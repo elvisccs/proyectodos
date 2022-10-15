@@ -1,0 +1,201 @@
+/* selector universal para todo se llama con * */
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body {
+    background-color: rgb(175, 175, 175);
+    background-image: url("https://i.pinimg.com/originals/0b/59/34/0b5934b623f3c6f5377f221959d77982.gif");
+    background-repeat: no-repeat;
+    /* sirve para que no se repita x para que se repita horizontal y y vertical*/
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%; /*es para ajustar el tamaño de la imagen com rem px o porcentaje*/
+    background-attachment: fixed;
+    /* sirve para que lña imagen baje cunado scroleas y fixed se queda statica*/
+}
+
+.logoheader{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://i.pinimg.com/originals/1d/a9/93/1da99329c45b0510c37fa83efd0ac025.gif");
+    
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoimage{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+main {
+    background-color: rgba(45, 21, 150, 0.356);
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: justify;
+    /* text-decoration: underline; solo para lineas */
+    letter-spacing: 2px;
+    /*separo las letras*/
+    word-spacing: 5px;
+    /*separo las palabras*/
+    text-transform: lowercase;
+    /*para cambiar minulcula o mayuscula lowercase = minuscula*/
+    line-height: 25px;
+    /*separacion de una linea y otra*/
+    /*pintar el fondo del nav colocar el nombre de cada planeta, imagen de otro planeta tiene que tener mismo estilo
+    imagen mismo tamaño, hacer el footer, al titulo agregar color, color de texo y fondo pintado en el header */
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none; /* quitar viñetas*/
+    margin: 0;      /*espacio externo*/
+    padding: 0;         /*espacio interno*/
+    overflow: hidden;   /*texto flotante este en el cuadro*/
+    background-color: rgb(56, 40, 201);
+    text-align: center;
+    
+}
+
+li {
+    float: left; /*texto flotante*/
+    
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.imagenes:hover{
+    border: 1px solid rgb(156, 8, 8);
+}
+
+
+
+
+
+
+
+/* para que se convierta en un objeto flotante y se muestre en linea*/
+
+
+
+
+
+/* pseudocodigo cuando pasamos el mouse cambia de color */
+
+
+li {
+    display: inline;
+    margin: 10px;
+    color: white;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px 3px black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mer{
+    color: rgb(90, 247, 247);
+}
+#mar{
+    color: orange;
+}
+#tie{
+    color: rgb(42, 197, 218);
+}
+
+#ven{
+    color: red;
+}
+#sat{
+    color: yellow;
+}
+#ura{
+    color: rgb(31, 102, 182);
+}
+
+#nep{
+    color: chartreuse;
+}
+/* .principal1{
+    background-color: aqua;
+}
+.principal2{
+    background-color: blueviolet;
+} */
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold; /* negtrita */
+    /*sombra horizontal - sombra vertical - tamaño sombra - color */
+    text-shadow: 3px 2px 3px black;
+}
+
+p {
+    text-align: center;
+}
+.parrafos{
+    text-align: justify;
+}
+
+img{
+    /* para que se redondee las esquinas */
+    border-radius: 3%; 
+
+    /* img en miniatura */
+    /* tamaño de borde - tipo de borde - color deborde */
+    border: 2px solid white;
+    /* padding espacio entre el marco y la imagen y  */
+    padding: 5px;
+    /* width: 150px; para que la imagen se comvierta en miniatura  tambien el padding*/
+    /* responsive de una imagen osea la imagen se va a reducir de tamaño depende a la pagina */
+    /* max-width: 100%;
+    height: auto; */
+
+    /* para centrar imagnen */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* IMAGEN TRANSPARENTE*/
+    opacity: 0.9;
+    /* filtros
+    filter: grayscale(100%);  para blanco y negro*/
+    
+}
+
+footer {
+    background-color: blue;
+    clear: both;
+    color: aliceblue;
+}
+
+
+/* id es para seleccionar otras cosas p o h o si quiero hacer aparte se llama con numeral y nombre */
+/* class es para selecionar grupos para mas amplio se llama con .y nombre*/
